@@ -4,7 +4,7 @@
 " URL: https://github.com/harmenjanssen/light-owl.vim
 " Author: Harmen Janssen &lt;harmen@whatstyle.net&gt;
 " License: MIT
-" Last Change: 2020/11/01 12:09
+" Last Change: 2020/11/01 12:11
 " ===============================================================
 
 set background=dark
@@ -102,6 +102,7 @@ hi GitGutterAdd guifg=#0c969b ctermfg=30 gui=NONE cterm=NONE
 hi GitGutterChange guifg=#E0AF02 ctermfg=178 gui=NONE cterm=NONE
 hi GitGutterDelete guifg=#c96765 ctermfg=167 gui=NONE cterm=NONE
 hi GitGutterChangeDelete guifg=#E0AF02 ctermfg=178 gui=NONE cterm=NONE
+hi gitcommitSummary guifg=#403f53 ctermfg=238 guibg=#FBFBFB ctermbg=15 gui=NONE cterm=NONE
 
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)

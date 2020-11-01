@@ -109,3 +109,4 @@ GitGutterChange: 'yellow .'
 GitGutterDelete: 'red .'
 GitGutterChangeDelete: 'yellow .'
 
+gitcommitSummary: 'black white'
