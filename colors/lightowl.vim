@@ -4,7 +4,7 @@
 " URL: https://github.com/harmenjanssen/light-owl.vim
 " Author: Harmen Janssen &lt;harmen@whatstyle.net&gt;
 " License: MIT
-" Last Change: 2020/11/01 11:50
+" Last Change: 2020/11/01 12:09
 " ===============================================================
 
 set background=dark
@@ -45,6 +45,7 @@ hi Normal guifg=#403f53 ctermfg=238 guibg=#FBFBFB ctermbg=15 gui=NONE cterm=NONE
 hi PMenu guifg=#FBFBFB ctermfg=15 guibg=#994cc3 ctermbg=97 gui=NONE cterm=NONE
 hi PMenuSel guifg=#F0F0F0 ctermfg=255 guibg=#403f53 ctermbg=238 gui=NONE cterm=NONE
 hi Search guibg=#daaa01 ctermbg=178 gui=NONE cterm=NONE
+hi SpecialKey guifg=#4876d6 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLine guifg=#FBFBFB ctermfg=15 guibg=#403f53 ctermbg=238 gui=NONE cterm=NONE
 hi Title guifg=#aa0982 ctermfg=126 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Visual guifg=#FBFBFB ctermfg=15 guibg=#994cc3 ctermbg=97 gui=NONE cterm=NONE
@@ -77,7 +78,7 @@ hi Special guifg=#aa0982 ctermfg=126 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Delimiter guifg=#de3d3b ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link SpecialComment Comment
 hi Error guifg=#FBFBFB ctermfg=15 guibg=#c96765 ctermbg=167 gui=NONE cterm=NONE
-hi Todo guifg=#de3d3b ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Todo guifg=#de3d3b ctermfg=167 gui=Bold cterm=Bold
 hi cssTagName guifg=#c96765 ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssValueLength guifg=#aa0982 ctermfg=126 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link cssUnitDecorators cssValueLength

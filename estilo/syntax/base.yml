@@ -79,7 +79,7 @@ Debug: '' # Special
 Underlined: ''
 Ignore: ''
 Error: 'white red'
-Todo: 'brightRed'
+Todo: 'brightRed . b'
 
 cssTagName: 'red'
 cssValueLength: 'offpurple'
