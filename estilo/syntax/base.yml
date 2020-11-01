@@ -1,0 +1,111 @@
+# BASE UI
+ColorColumn: 'black offwhite'
+Conceal: ''
+Cursor: 'white purple'
+CursorIM: 'white purple'
+CursorColumn: 'white purple'
+CursorLine: '. offwhite'
+CursorLineNr: 'purple . b'
+Directory: ''
+DiffAdd: ''
+DiffChange: ''
+DiffDelete: ''
+DiffText: ''
+ErrorMsg: 'white red'
+VertSplit: 'black'
+Folded: ''
+FoldColumn: '. white'
+SignColumn: '. white'
+IncSearch: '. yellow'
+LineNr: 'black white'
+MatchParen: 'white red'
+ModeMsg: ''
+MoreMsg: ''
+NonText: 'offwhite'
+Normal: 'black white'
+PMenu: 'white purple'
+PMenuSel: 'offwhite black'
+PmenuSbar: ''
+PmenuThumb: ''
+Question: ''
+Search: '. brightYellow'
+SpecialKey: ''
+SpellBad: ''
+SpellLocal: ''
+SpellCap: ''
+SpellRare: ''
+StatusLine: 'white black'
+StatusLineNC: ''
+TabLine: ''
+TabLineFill: ''
+TabLineSel: ''
+Title: 'offpurple'
+Visual: 'white purple'
+VisualNOS: 'white purple'
+WarningMsg: 'white red'
+WildMenu: 'white purple'
+# BASE SYNTAX
+Comment: 'white gray i'
+Constant: 'blue'
+String: 'red' # Constant
+Character: 'blue' # Constant
+Boolean: 'purple' # Constant
+Number: 'offpurple' # Constant
+Float: 'offpurple' # Constant
+Identifier: 'blue'
+Function: 'purple' # Identifier
+Statement: 'purple'
+Conditional: 'green' # Statement
+Repeat: '' # Statement
+Label: 'purple' # Statement
+Operator: 'green' # Statement
+Keyword: 'purple' # Statement
+Exception: 'red' # Statement
+PreProc: 'purple'
+Include: 'purple' # PreProc
+Define: 'purple' # PreProc
+Macro: 'purple' # PreProc
+PreCondit: 'purple' # PreProc
+Type: 'purple'
+StorageClass: '' # Type
+Structure: 'green' # Type
+Typedef: '' # Type
+Special: 'offpurple'
+SpecialChar: '' # Special
+Tag: '' # Special
+Delimiter: 'brightRed' # Special
+SpecialComment: '@Comment' # Special
+Debug: '' # Special
+Underlined: ''
+Ignore: ''
+Error: 'white red'
+Todo: 'brightRed'
+
+cssTagName: 'red'
+cssValueLength: 'offpurple'
+cssUnitDecorators: '@cssValueLength'
+
+cssBackgroundProp: 'green'
+cssBorderProp: 'green'
+cssBoxProp: 'green'
+cssDimensionProp: 'green'
+cssFontProp: 'green'
+cssInteractProp: 'green'
+cssMarginProp: 'green'
+cssMediaProp: 'green'
+cssPaddingProp: 'green'
+cssPositioningProp: 'green'
+cssTextProp: 'green'
+cssTransitionProp: 'green'
+cssUiProp: 'green'
+
+cssCommonAttr: 'blue'
+scssAttribute: 'red'
+cssPseudoClassId: 'blue'
+
+##### GitGutter airblade/vim-gitgutter
+GitGutterAdd: 'green .'
+GitGutterChange: 'yellow .'
+GitGutterDelete: 'red .'
+GitGutterChangeDelete: 'yellow .'
+

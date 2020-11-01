@@ -1,0 +1,10 @@
+name: 'light-owl.vim'
+version: '1.0.0'
+license: 'MIT'
+author: 'Harmen Janssen <harmen@whatstyle.net>'
+url: 'https://github.com/harmenjanssen/light-owl.vim'
+description: "Light theme based on Sarah Drasner's Light Owl VS Code theme."
+colorschemes:
+  - name: lightowl
+    background: 'dark'
+    palette: light-owl.vim
