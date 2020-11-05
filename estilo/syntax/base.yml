@@ -110,3 +110,6 @@ GitGutterDelete: 'red .'
 GitGutterChangeDelete: 'yellow .'
 
 gitcommitSummary: 'black white'
+
+##### Quickfix List
+qfFileName: 'blue'
