@@ -4,7 +4,7 @@
 " URL: https://github.com/harmenjanssen/light-owl.vim
 " Author: Harmen Janssen &lt;harmen@whatstyle.net&gt;
 " License: MIT
-" Last Change: 2020/11/05 07:07
+" Last Change: 2020/11/09 07:15
 " ===============================================================
 
 set background=dark
@@ -37,14 +37,14 @@ hi ErrorMsg guifg=#FBFBFB ctermfg=15 guibg=#c96765 ctermbg=167 gui=NONE cterm=NO
 hi VertSplit guifg=#403f53 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guibg=#FBFBFB ctermbg=15 gui=NONE cterm=NONE
 hi SignColumn guibg=#FBFBFB ctermbg=15 gui=NONE cterm=NONE
-hi IncSearch guibg=#E0AF02 ctermbg=178 gui=NONE cterm=NONE
+hi IncSearch guifg=#403f53 ctermfg=238 guibg=#addb67 ctermbg=149 gui=NONE cterm=NONE
 hi LineNr guifg=#403f53 ctermfg=238 guibg=#FBFBFB ctermbg=15 gui=NONE cterm=NONE
 hi MatchParen guifg=#FBFBFB ctermfg=15 guibg=#c96765 ctermbg=167 gui=NONE cterm=NONE
 hi NonText guifg=#F0F0F0 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#403f53 ctermfg=238 guibg=#FBFBFB ctermbg=15 gui=NONE cterm=NONE
 hi PMenu guifg=#FBFBFB ctermfg=15 guibg=#994cc3 ctermbg=97 gui=NONE cterm=NONE
 hi PMenuSel guifg=#F0F0F0 ctermfg=255 guibg=#403f53 ctermbg=238 gui=NONE cterm=NONE
-hi Search guibg=#daaa01 ctermbg=178 gui=NONE cterm=NONE
+hi Search guifg=#403f53 ctermfg=238 guibg=#addb67 ctermbg=149 gui=NONE cterm=NONE
 hi SpecialKey guifg=#4876d6 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLine guifg=#FBFBFB ctermfg=15 guibg=#403f53 ctermbg=238 gui=NONE cterm=NONE
 hi Title guifg=#aa0982 ctermfg=126 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
